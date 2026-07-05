@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="alu_control_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="alu_control_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="18001fs"></ZoomEndTime>
+      <Cursor1Time time="18000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="140"></NameColumnWidth>
+      <ValueColumnWidth column_width="168"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/alu_control_tb/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_control_tb/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_control_tb/funct7" type="logic">
+      <obj_property name="ElementShortName">funct7</obj_property>
+      <obj_property name="ObjectShortName">funct7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_control_tb/r_type" type="array">
+      <obj_property name="ElementShortName">r_type[6:0]</obj_property>
+      <obj_property name="ObjectShortName">r_type[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_control_tb/i_type" type="array">
+      <obj_property name="ElementShortName">i_type[6:0]</obj_property>
+      <obj_property name="ObjectShortName">i_type[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_control_tb/b_type" type="array">
+      <obj_property name="ElementShortName">b_type[6:0]</obj_property>
+      <obj_property name="ObjectShortName">b_type[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_control_tb/load" type="array">
+      <obj_property name="ElementShortName">load[6:0]</obj_property>
+      <obj_property name="ObjectShortName">load[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_control_tb/alu_ctrl" type="array">
+      <obj_property name="ElementShortName">alu_ctrl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_ctrl[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_control_tb/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
