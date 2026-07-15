@@ -27,7 +27,7 @@ module instruction_memory_tb(
     
     integer error =0;
     
-    instruction_memory dut(.addr(addr), .inst(inst));
+    instruction_memory #(.INIT_FILE("program.hex")) dut(.addr(addr), .inst(inst));
 
 task check(input [31:0] expected, input [256:0] test_name); 
 begin

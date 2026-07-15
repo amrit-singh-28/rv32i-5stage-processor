@@ -20,7 +20,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module instruction_memory(
+module instruction_memory #(
+parameter INIT_FILE = "program.hex"
+)(
     input wire [31:0]addr,
     output wire [31:0]inst
 );
@@ -31,7 +33,7 @@ localparam ADDR_WIDTH = $clog2(NUM_WORDS);
 reg [31:0] mem[NUM_WORDS-1:0];
 
 initial begin
-$readmemh("program.hex",mem);
+$readmemh(INIT_FILE,mem);
 end
 
 assign inst = mem[addr[ADDR_WIDTH+1:2]];
